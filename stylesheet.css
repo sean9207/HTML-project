@@ -1,0 +1,210 @@
+
+/*this main style file*/
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@600&family=Inconsolata:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sail&display=swap');
+
+/*main background colours and fonts*/
+* {
+	background-color: rgb(250, 245, 245);
+	font-family: bitter;
+}
+
+/*this is the start of the code for the nav bar and button*/
+li,a,button {
+	font-family: bitter;
+	font-weight: 500;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+	
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px,10%;
+    position: sticky;
+    top: 0px;	
+}
+
+li,a {
+	display: inline-block;
+	padding: 0px 20px;
+	transition: all 0.3s ease 0s;
+}	
+
+li,a:hover {
+	color: grey;
+	border-radius: 50px;
+}
+
+button {
+	padding:5px 25px;
+	background-color:rgba(0,136,169,1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+}
+
+button:hover {
+	background-color: rgba(0,136,169,0.8);
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  color: black;
+  padding: 0px 8px;
+  background-color: inherit;
+  font-family: bitter;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(0,136,169,1);
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute; 
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 6px 8px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+     background-color: rgba(0,136,169,1);
+}
+
+.dropdown:hover .dropdown-content {
+      display: block;
+}
+/*index banner image*/ 
+.cottage {
+     background-image: url("imgs/cottage.jpg");
+     background-repeat: no-repeat, repeat;
+     background-color: white;
+     padding:200px;
+     margin: 50px;
+     background-position: center; 
+}
+/*this is just for the heading title*/
+.logo {
+	 font-family: 'sail' ,cursive;
+	 font-size: 50px;
+	 padding:5px;
+	 margin: 5px;
+	 text-align: center;
+	 text-decoration: underline;
+}
+/*background images style for the contact form*/
+.contactform {
+	background-image: url("imgs/area picture1.jpg");
+	background-position: center;
+	align-items: center;	
+	text-align: center;
+	color: white;
+	box-shadow: 0 5px 25px 0;
+	margin: 5%;
+	padding: 50px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.footer {
+	color: black;
+	background-color: white;
+	padding: 20px;
+	border-radius: 6px;	
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);	
+}
+/*these are the main styles for the web pages*/
+.main-section {
+	background-color: rgba(191, 191, 191, 0.6);
+	padding: 0px;
+	margin: 30px;
+	height: 1300px;
+	width:98%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.section1 {
+	height: 500px;
+	width: 700px;
+	padding: 20px;
+	float: left;
+	text-align: left;
+	font-size: 20px;
+	margin: 40px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	border: 2px solid black;
+}
+
+.section2 {
+	height: 500px;
+	width: 700px;
+	padding: 20px;
+	float: right;
+	text-align: left;
+	font-size: 20px;
+	margin: 40px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	border: 2px solid black;
+}
+
+
+.subsection {	
+	text-align: center;
+	float: left;
+	height: 300px;
+	width: 400px;
+	margin: 100px;
+	padding: 5px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	border: 2px solid black;
+}
+
+.info1 {	
+    margin: 60px;
+    padding: 10px;
+	color: black;
+	border: 2px solid black;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+} 
+
+.aboutimgs {
+	justify-content: center;
+	height: 700px;
+	width: 80%;
+	padding: 20px;
+	margin: 170px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.aboutus {
+	background-color: rgba(191, 191, 191, 0.6);
+	padding: 10px;
+	margin: 30px;
+	height: 110%;
+	width:95%;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);	
+}	
+
+
